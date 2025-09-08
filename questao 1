@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartao pessoal</title>
+<style>
+
+
+img{
+    height: 200px;
+    padding:50px;
+    text-align: center;
+    border-radius: 30%;
+    border: 1px solid blue;
+}
+.Linguagens{
+    margin-bottom:20px 0;
+}
+
+.Linguagens span{
+    display: inline-block;
+   background-color:blue;
+   color: white;
+   padding:6px 12px;
+   margin:5px;
+   border-radius: 6px;
+    font-size: 13px;
+    
+}
+h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+h5{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightslategray;
+}
+
+.card{
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+}
+p{
+    padding: 1%;
+    margin: 0 3px;
+    flex: 1;
+
+}
+</style>
+</head>
+<body>
+    <div class="card">
+    <!-- Foto de perfil -->
+    <img src="perfil.jpg" alt="Foto de Perfil">
+
+    <!-- Nome e título -->
+    <h2>João Gabriel</h2>
+    <h5>Número de matricula:202508201127</h5>
+    <h4>Desenvolvedor Web</h4>
+
+    <!-- Descriçao -->
+<div class="box-model">
+    <p>Ola, me chamo Joao Gabriel e estou no primeiro periodo de ciencia da computaçao.
+        Atualmente, estou aprendendo a desenvolver e estilizar paginas web, 
+        utilizando o HTML e a linguagem de marcaçao CSS.
+        Estou gostando de desenvolver e estilizar paginas como esta pois aprendo de maneiras divertidas como criar paginas webs.
+    </p>
+</div>
+    <!-- Habilidades -->
+    <div class="Linguagens">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>PHP</span>
+    </div>
+
+    <!-- Links -->
+    <div class="links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+
+</body>
+</html>
