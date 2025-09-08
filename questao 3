@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link ref="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+<style>
+
+body{
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin:0;
+  background-color:#f0f0f0;
+}
+form{
+    max-width: 400px;
+    margin: 40px;
+    padding: 20px;
+}
+
+h2{text-align: center;
+color: blue;
+margin-bottom: 20px;
+
+  
+}
+label{
+  font-size: 14px;
+  font-weight: bold;
+  color:red;
+  margin-bottom: 5px;
+  display:block;
+  
+}
+input:focus, textarea:focus{
+  border-color: #d74e41;
+  outline:none;
+  
+}
+textarea{
+  min-height:100px;
+  resize:vertical;
+  
+}
+button:hover{
+  background-color: #b13a2b;
+}
+button{
+  background-color: #d74e41;
+  color:#f0f0f0;
+  font-size: 16px;
+  padding: 12px 20px;
+  border:none;
+  width:100vh;
+  cursor:pointer;
+}
+
+
+</style>
+</head>
+
+    <body> 
+    <h2>Cadastro</h2>
+    <form action="submit_form" method="post>"
+        <label for="name">Nome Completo:</label><br>
+        <input type="text"id="name" name='name' placeholder="Digite seu nome" requiered><br><br>
+
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+        <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+    </form>
+        </body>
+</html>
